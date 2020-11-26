@@ -1,18 +1,62 @@
-<html>
+<!doctype html>
+<html lang="en" data-framework="javascript">
 
 <head>
+  <meta charset="utf-8">
+  <title>To-Do Mark</title>
+  <!-- <link rel="stylesheet" href="css/app.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="todoapp">
+    <header id="header">
+      <h1>Todo</h1>
+      <input id="new-todo" placeholder="What needs to be done?" autofocus>
+    </header>
+    <section id="main">
+      <ul id="todo-list"></ul>
+    </section>
+    <footer id="footer">
+      <span id="todo-count"></span>
+      <ul id="filters">
+        <li>
+          <a href="#/" class="selected">All</a>
+        </li>
+        <li>
+          <a href="#/active">Active</a>
+        </li>
+      </ul>
+      <button id="clear-completed">Clear completed</button>
+    </footer>
+  </section>
+  </footer>
+  <div id="app">Showing text from index.html</div>
+  <!-- <script src="js/config.js"></script>
+  <script src="js/helpers.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/model.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/view.js"></script>
+  <script src="js/controller.js"></script>
+  <script src="js/app.js"></script> -->
+  <script type="text/javascript" src='bundle.js'></script>
+</body>
+
+</html>
+
+
+
+<!-- <html>
+<head>
   <title>2046</title>
-  <!-- <link rel="stylesheet" href="../src/components/App.css"> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
-    integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg=="
-    crossorigin="anonymous"></script> -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div id="app">Showing text from index.html</div>
-  <!-- <h2>hi zuumers</h2> -->
+
   <script type="text/javascript" src='bundle.js'></script>
 </body>
 
-</html>
+</html> -->

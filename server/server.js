@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 const path = require('path');
-const db = require('../db/index');
-const model = require('../db/model');
+// const db = require('../db/index');
+// const model = require('../db/model');
 
 // MIDDLEWARE
 app.use(express.json());
